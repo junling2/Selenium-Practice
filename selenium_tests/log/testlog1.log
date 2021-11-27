@@ -1,0 +1,5 @@
+2021-11-26 16:19:01,470 [main] INFO com.selenium_tests.testCases.TCBaseClass - URL is opened
+2021-11-26 16:19:01,669 [main] INFO com.selenium_tests.testCases.TCBaseClass - Username is entered
+2021-11-26 16:19:01,815 [main] INFO com.selenium_tests.testCases.TCBaseClass - Password is entered
+2021-11-26 16:19:03,569 [main] INFO com.selenium_tests.testCases.TCBaseClass - Submit button pressed
+2021-11-26 16:19:03,615 [main] INFO com.selenium_tests.testCases.TCBaseClass - Dashboard is loaded
