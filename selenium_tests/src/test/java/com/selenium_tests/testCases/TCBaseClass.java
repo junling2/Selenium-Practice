@@ -1,5 +1,7 @@
 package com.selenium_tests.testCases;
 
+import com.selenium_tests.utilities.ReadConfig;
+
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
@@ -8,9 +10,10 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
 public class TCBaseClass {
-    public String baseURL = "https://www.phptravels.net/login";
-    public String username = "user@phptravels.com";
-    public String password = "demouser";
+    ReadConfig rc = new ReadConfig();
+    public String baseURL = rc.getApplicationURL();
+    public String username = rc.getUserName();
+    public String password = rc.getPassword();
     public static WebDriver driver;
     public static Logger logger;
 
